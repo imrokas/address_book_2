@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Phone Book Demo 2</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>My Phone Book</h1>
+    <div class="container">
+      <h3>Add New Entry</h3>
+      <form>
+        <div>
+          <label for="firstName">First Name:</label>
+          <input type="text" placeholder="Rokas" id="firstName"/>
+        </div>
+        <div>
+          <label for="lastName">Last Name:</label>
+          <input type="text" placeholder="Pokas" id="lastName"/>
+        </div>
+        <div>
+          <label for="phone">Phone Number:</label>
+          <input type="text" placeholder="123-123-1234" id="phone"/>
+        </div>
+        <button id="add">Add</button>
+        <button id="clear">Clear</button>
+      </form>
+    </div>
+    <div class="container">
+      <h3>My Contact List</h3>
+      <ol id="list"></ol>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+.container {
+  border: 1px solid black;
+  padding: 20px;
+  margin-top: 10px;
+  width: 300px;
+  line-height: 25px;
+}
+
+.container h3 {
+  text-align: center;
+}
+
+.container input {
+  float: right;
+}
+
+.container button {
+  width: 145px;
+}
